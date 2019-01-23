@@ -1,0 +1,54 @@
+{
+  "name": "type-graphql-orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:demon": "nodemon --exec ts-node src/app.ts",
+    "start": "ts-node-dev  --respawn src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUkhan/type-graphql-orm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUkhan/type-graphql-orm/issues"
+  },
+  "homepage": "https://github.com/JUkhan/type-graphql-orm#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.9.1",
+    "connect-redis": "^3.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "graphql": "^14.1.1",
+    "ioredis": "^4.5.1",
+    "nodemailer": "^5.1.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.0.6",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typeorm": "^0.2.12",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/connect-redis": "0.0.8",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.0",
+    "@types/express-session": "^1.15.11",
+    "@types/graphql": "^14.0.5",
+    "@types/ioredis": "^4.0.5",
+    "@types/node": "^10.12.18",
+    "@types/nodemailer": "^4.6.5",
+    "@types/uuid": "^3.4.4",
+    "ts-node": "^8.0.1",
+    "type-graphql": "^0.16.0",
+    "typescript": "^3.2.4"
+  }
+}
